@@ -1,0 +1,175 @@
+a {
+    color: #AF95FF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #feffc2;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    /* Font settings from google fonts */
+    font-family: 'Merriweather', serif;
+    color: #c7bcee;
+    font-weight: 300;
+
+}
+
+
+
+h1 {
+    color: #D9D2ED;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    /* 100% = 16px = 1em, percentages make them dynamic  */
+    /* rem means root, which ignores/ does not inherit parent font size */
+    margin: 50px auto 0 auto;
+    /* Top left bottom right */
+}
+
+h2 {
+    color: #AF95FF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    border-top: 5px dotted #d3e6e6;
+    width: 3%;
+    margin: 50px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+/* text color from sleepiest == #D9D2ED */
+/******** Class indicators *************/
+.top-container {
+    background-image: url('../images/nightCity.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2A265A;
+    position: relative;
+    padding-top: 0px;
+    height: 1750px;
+
+}
+
+.titleOfTopContainer {
+    position: absolute;
+    top: 400px;
+    left: 775px
+        /* margin: auto 1000px auto 500px;
+    padding-top: 300px;
+    width: 500px;
+    height: 250px; */
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 400px;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 475px;
+    top: 50px;
+}
+
+.profilePicture {
+    width: 200px;
+    height: auto;
+    margin: 100px auto;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.middle-container {
+    padding: 200px auto;
+    background-color: #2A265A;
+}
+
+.skill-row {
+    width: 50%;
+    position: relative;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+
+.skillOne {
+    width: 25%;
+    height: auto;
+    float: left;
+    /* allows for text to wrap around image */
+    margin-right: 30px;
+}
+
+.skillTwo {
+    width: 25%;
+    height: auto;
+    float: right;
+    /* allows for text to wrap around image */
+    margin-left: 30px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #AF95FF;
+    background-image: -webkit-linear-gradient(top, #AF95FF, #4C27F1);
+    background-image: -moz-linear-gradient(top, #AF95FF, #4C27F1);
+    background-image: -ms-linear-gradient(top, #AF95FF, #4C27F1);
+    background-image: -o-linear-gradient(top, #AF95FF, #4C27F1);
+    background-image: linear-gradient(to bottom, #AF95FF, #4C27F1);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #feffc2;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #8275E2;
+    background-image: -webkit-linear-gradient(top, #8275E2, #D9D2ED);
+    background-image: -moz-linear-gradient(top, #8275E2, #D9D2ED);
+    background-image: -ms-linear-gradient(top, #8275E2, #D9D2ED);
+    background-image: -o-linear-gradient(top, #8275E2, #D9D2ED);
+    background-image: linear-gradient(to bottom, #8275E2, #D9D2ED);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #2A265A;
+    padding: 50px 0 20px;
+}
+
+.footer-cr {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+}
